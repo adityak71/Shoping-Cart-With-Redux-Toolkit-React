@@ -7,7 +7,7 @@ import Cart from "./pages/Cart";
 export default function App() {
   return (
     <div>
-      <div>
+      <div className="sticky top-0 z-50 bg-slate-700 shadow-md">
         <NavBar/>
       </div>
 
