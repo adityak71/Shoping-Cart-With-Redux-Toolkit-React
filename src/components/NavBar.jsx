@@ -11,7 +11,12 @@ const NavBar = () => {
 
         <NavLink to="/">
           <div>
-            <img src="https://juststickers.in/product/redux-sticker/"/>
+            <img 
+              height={50}
+              width={50}
+              src="public/logo.png" 
+              alt="Logo"
+            />
           </div>
         </NavLink>
         
