@@ -33,9 +33,13 @@ const Home = () => {
           <Spinner/> 
           : 
           items.length > 0 ? 
-            items.map((item)=>(
-              <Products key={item.id} item={item}/>
-            ))
+          ( <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto my-5 space-y-10 space-x-5 min-h-[80vh]">
+            {
+              items.map((item)=>(
+                <Products key={item.id} item={item}/>
+              ))
+            }
+          </div>)
           : 
           <NotFound/>
       }
