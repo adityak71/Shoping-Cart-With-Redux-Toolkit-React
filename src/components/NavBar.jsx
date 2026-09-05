@@ -1,6 +1,7 @@
 import { HiShoppingCart } from "react-icons/hi2";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import logo from "../../public/logo.png";
 
 
 
@@ -16,7 +17,7 @@ const NavBar = () => {
             <img 
               height={50}
               width={50}
-              src="public/logo.png" 
+              src={logo} 
               alt="Logo"
             />
           </div>
